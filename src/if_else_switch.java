@@ -15,7 +15,7 @@ public class if_else_switch {
             System.out.println("a og b er lige");
         }
       Scanner x = new Scanner(System.in);
-        System.out.println("Skriv dit budget" + " mellem " + " " + "500, 1000, 1500,2500,3500");
+        System.out.println("Skriv dit budget" + " vælg "+ " mellem " + " " + "500, 1000, 1500,2500,3500");
         int budget = x.nextInt();
 
         switch (budget){
