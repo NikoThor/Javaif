@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class if_else_switch {
     public static void main(String[] args) {
         int a = 42;
@@ -13,8 +14,11 @@ public class if_else_switch {
         } else{
             System.out.println("a og b er lige");
         }
-     int budget = 1500;
-     switch (budget){
+      Scanner x = new Scanner(System.in);
+        System.out.println("Skriv dit budget" + " mellem " + " " + "500, 1000, 1500,2500,3500");
+        int budget = x.nextInt();
+
+        switch (budget){
          case 500:
              System.out.println("du har et budget på  500kr");
              break;
@@ -31,5 +35,6 @@ public class if_else_switch {
              System.out.println("du har et budget på  3500kr");
              break;
      }
+
     }
 }
